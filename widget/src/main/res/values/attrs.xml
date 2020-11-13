@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MaxHeightRecyclerView">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ProgressView">
+        <attr name="max" format="integer" />
+        <attr name="vProgress" format="integer" />
+        <attr name="strokeWidth" format="dimension" />
+        <!--边框宽度-->
+        <attr name="radius" format="dimension" />
+        <!--圆角半径-->
+        <attr name="backColor" format="color" />
+        <!--背景颜色-->
+        <attr name="backStrokeColor" format="color" />
+        <!--背景边框颜色-->
+        <attr name="backProgressColor" format="color" />
+        <!--进度背景颜色-->
+        <attr name="progressColor" format="color" />
+        <!--进度颜色-->
+        <attr name="progressStrokeColor" format="color" />
+        <!--进度边框颜色-->
+        <attr name="completeColor" format="color" />
+        <!--完成颜色-->
+        <attr name="completeStrokeColor" format="color" />
+        <!--进度边框颜色-->
+        <attr name="textColor" format="color" />
+        <!--正常文字颜色-->
+        <attr name="textProgressColor" format="color" />
+        <!--进度文字颜色-->
+        <attr name="completeTextColor" format="color" />
+        <!--完成文字颜色-->
+        <attr name="textSize" format="dimension" />
+        <attr name="text" format="string" />
+    </declare-styleable>
+</resources>
