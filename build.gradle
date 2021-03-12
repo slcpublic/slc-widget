@@ -44,4 +44,7 @@ ext {
     androidXConstraintlayout = '2.0.4'
     googleAndroidMaterial = '1.4.0-alpha01'
     androidXSwiperefreshlayout = '1.1.0'
+
+    //toolbar
+    toolbarVersion = '0.0.8'
 }

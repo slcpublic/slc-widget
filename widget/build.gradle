@@ -32,4 +32,5 @@ dependencies {
     implementation "androidx.appcompat:appcompat:$androidXAppcompat"
     compileOnly "androidx.swiperefreshlayout:swiperefreshlayout:$androidXSwiperefreshlayout"
     compileOnly "com.google.android.material:material:$googleAndroidMaterial"
+    compileOnly "android.slc:toolbar:$toolbarVersion"
 }
