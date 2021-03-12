@@ -30,8 +30,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "androidx.appcompat:appcompat:$androidXAppcompat"
-    compileOnly "androidx.recyclerview:recyclerview:$androidXRecyclerview"
     compileOnly "androidx.swiperefreshlayout:swiperefreshlayout:$androidXSwiperefreshlayout"
     compileOnly "com.google.android.material:material:$googleAndroidMaterial"
-    compileOnly "android.slc:toolbar:$toolbarVersion"
 }
