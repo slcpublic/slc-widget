@@ -1,4 +1,4 @@
-apply plugin: 'com.android.library'
+apply from: "${project.rootDir}/code_module_config.gradle"
 apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.sunlunchang1994'
 
@@ -29,8 +29,5 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "androidx.appcompat:appcompat:$androidXAppcompat"
-    compileOnly "androidx.swiperefreshlayout:swiperefreshlayout:$androidXSwiperefreshlayout"
-    compileOnly "com.google.android.material:material:$googleAndroidMaterial"
     compileOnly "android.slc:toolbar:$toolbarVersion"
 }
