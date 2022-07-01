@@ -1,5 +1,4 @@
 apply from: "${project.rootDir}/code_module_config.gradle"
-apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.sunlunchang1994'
 
 android {
@@ -29,5 +28,5 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    compileOnly "android.slc:toolbar:$toolbarVersion"
+    compileOnly "com.gitee.slcpublic.slc-boxes:toolbar:$toolbarVersion"
 }
